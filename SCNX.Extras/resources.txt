@@ -1,0 +1,7 @@
+$rg = "rgScnxDemo"
+$appPlan = "aspScnxDemo"
+$appName = "appScnxDemo"
+az group create -l westus2 -n $rg
+az appservice plan create -g $rg -n $appPlan
+az  webapp create --resource-group $rg --plan $appPlan --name $appName --runtime '"DOTNETCORE|3.1"'
+

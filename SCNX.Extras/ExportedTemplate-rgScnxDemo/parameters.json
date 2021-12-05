@@ -1,0 +1,30 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vulnerabilityAssessments_Default_storageContainerPath": {
+            "value": null
+        },
+        "servers_scnx_name": {
+            "value": null
+        },
+        "sites_appScnxDemo_name": {
+            "value": null
+        },
+        "serverfarms_aspScnxDemo_name": {
+            "value": null
+        },
+        "components_appScnxDemo_name": {
+            "value": null
+        },
+        "actionGroups_Application_Insights_Smart_Detection_name": {
+            "value": null
+        },
+        "smartdetectoralertrules_failure_anomalies___appscnxdemo_name": {
+            "value": null
+        },
+        "workspaces_DefaultWorkspace_bcc34801_095d_48c2_aaf2_f75b51f37e6f_WUS2_externalid": {
+            "value": null
+        }
+    }
+}
