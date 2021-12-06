@@ -28,7 +28,7 @@ jobs:
     - name: Test
       run: dotnet test --no-restore --verbosity normal     
     - name: Publish
-      run: dotnet publish ~/SCNX.Api.Demo/SCNX.Api/SCNX.Api.csproj --configuration Release --no-build --output ${{  env.AZURE_WEBAPP_PACKAGE_PATH  }} 
+      run: dotnet publish /home/runner/work/SCNX.Api.Demo/SCNX.Api.Demo/SCNX.Api/SCNX.Api.csproj --configuration Release --no-build --output ${{  env.AZURE_WEBAPP_PACKAGE_PATH  }} 
     - name: Deploy
       uses: azure/webapps-deploy@v2
       with:
